@@ -43,8 +43,7 @@ data "aws_iam_policy_document" "IRTrustPolicy" {
       type = "AWS"
       identifiers = [
         "arn:aws:iam::896107675552:user/asingh",
-        "arn:aws:iam::896107675552:user/asingh-2",
-        "arn:aws:iam::896107675552:user/asingh-admin"
+        "arn:aws:iam::896107675552:user/asingh-2"
       ]
     }
   }
